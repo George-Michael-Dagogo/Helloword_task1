@@ -1,0 +1,45 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "mass",
+				"type": "uint256"
+			}
+		],
+		"name": "force",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "d",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "which",
+				"type": "uint256"
+			}
+		],
+		"name": "ifWithArrays",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "s",
+				"type": "string"
+			}
+		],
+		"stateMutability": "pure",
+		"type": "function"
+	}
+]
